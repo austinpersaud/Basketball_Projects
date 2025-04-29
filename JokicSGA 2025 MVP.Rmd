@@ -1,0 +1,21 @@
+---
+title: "Jokic SGA"
+author: "Austin Persaud"
+date: "`r Sys.Date()`"
+output: html_document
+---
+# Packages
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(devtools)
+```
+
+# Jokic
+```{r}
+index <- 1:12
+stat <- c("Points Per Shot", "2-Point %", "3-Point %", "Free Throw Rate", "Usage %", "Assist %", "Ball Security", "Off Reb %", "Def Reb %", "Block %", "Steal %", )
+```
+
+
+
